@@ -1,0 +1,139 @@
+.nav-link {
+    font-size: 17px;
+    color: rgb(52, 50, 50);
+}
+
+.nav-link:hover {
+    color: rgb(219, 20, 20);
+}
+
+.yellow-btn,
+.yellow-btn:hover {
+    background-color: #a98f44;
+    border-radius: 30px;
+    border: none;
+}
+
+* {
+    font-family: Montserrat;
+    /* overflow-x: hidden; */
+}
+
+.my_btn {
+    background-color: #a98f44;
+    border: none;
+}
+
+.my-form {
+    background-color: gray !important;
+    border: none;
+    border-bottom: 0.5px solid #a98f44;
+    color: white !important;
+}
+
+.size {
+    color: rgb(149, 17, 17);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.size:hover {
+    color: #a98f44;
+}
+
+.parallax-header {
+    background: #000;
+    background: linear-gradient(rgba(0, 0, 0, 0.85),
+            rgba(0, 0, 0, 0.87)),
+        url(/parallex.jpg);
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    transition: all 0.7s ease-in-out;
+    background-size: 100%;
+}
+
+.card:hover {
+    background-size: 130%;
+}
+
+.parallax {
+    background: #000;
+    background: linear-gradient(rgba(0, 0, 0, 0.85),
+            rgba(0, 0, 0, 0.87)),
+        url(/abc.webp);
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.para:hover {
+    color: #a98f44;
+}
+
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.59),
+            rgba(0, 0, 0, 0.60)),
+        url(./footer.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact_button {
+    background-color:#a98f44;
+    border: none;
+    border-radius: 40px;
+}
+
+.my-form1 {
+    background: rgb(0, 0, 0, 0.40) !important;
+    border: none;
+    border-bottom: 0.5px solid #a98f44;
+    color: white !important;
+
+}
+
+.my-form1::placeholder,
+.my-form::placeholder {
+    color: white;
+}
+
+ul {
+    padding-left: 0rem;
+}
+
+.footSpan {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+.footSpan:hover {
+    color: rgb(129, 38, 38);
+}
+
+.card .card_content {
+    position: relative;
+    margin-top: -140px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+
+}
+.card:hover .card_content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0;
+}
+.bshadow{    
+    box-shadow: 0 0 10px #666666;
+}
+.footer_btn:hover {
+    background-color: rgb(83, 192, 83);
+}
